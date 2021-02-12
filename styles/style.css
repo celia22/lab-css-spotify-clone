@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    font-family: "Open Sans";
+    color: 1A1A1A;
+    margin: 0;
+}
+
+/********* NAVIGATION BAR ***********/
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 10px 30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#navbar > img{
+    width: 230px;
+    height: 70px;
+}
+
+#navbar > ul{
+    width: 500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+
+/********* BACKGROUND SECTION ***********/
+
+#musicbackground{
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    
+}
+
+#musicbackground > h1{
+    font-size: 80px;
+    font-weight: 600;
+    
+}
+
+.backgroundText > h4{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+/********* WHATS ON SPOTIFY SECTION  ***********/
+
+#whatson > h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-decoration: 4px underline #00B172;
+    text-underline-offset: 12px; 
+    margin-top: 40px;
+
+}
+
+#whatson_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 370px;
+    margin: 100px 150px 0 150px;
+
+}
+.icon_text { 
+    width: 33%;
+    font-size: 25px;
+    color:1A1A1A;
+    text-align: center;
+    
+}
+
+.icon_text > h4{
+    color:  #00B172;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.icon_text > img{ 
+    width: 150px;
+    height: 120px;
+    margin-bottom: 15px;
+    
+}
+
+.icon_text > p{ 
+   font-weight: 300;
+   margin-top: 30px ;
+    
+}
+
+
+/********* GREEN SECTION  ***********/
+
+#howtouse {
+    height: 700px;
+    margin: 50px;
+    background-color: #00B172 ;
+    color: white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    padding: 100px;  
+    position: relative;     
+}
+
+#howtouse_container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#howtouse_container h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+#howtouse_container h2 {
+    text-decoration: underline;
+    text-underline-offset: 12px; 
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#howtouse_container p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#spotylogo{
+    position: absolute;
+    width:10%;  
+    left: 45%;
+    top: 45%;
+       
+}
+
+#kayne{
+    display: flex;
+    justify-content: flex-end;   
+   
+}
+
+#kayne img{
+    height: 95%;  
+        
+}
